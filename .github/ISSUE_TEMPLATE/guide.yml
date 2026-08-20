@@ -1,0 +1,29 @@
+name: Correction ou ajout de guide
+description: Signaler une information à corriger ou proposer des données pour un guide.
+title: "[Guide] "
+labels: ["guide"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page concernée
+      placeholder: docs/04-alliance/duel-alliance.md
+    validations:
+      required: true
+  - type: textarea
+    id: observation
+    attributes:
+      label: Information / observation
+      description: Décrivez ce que vous avez observé ou ce qui doit être corrigé.
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: Date de vérification
+      placeholder: 2026-08-21
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Preuve ou contexte
+      description: Capture, serveur/saison, étapes pour reproduire, source externe...

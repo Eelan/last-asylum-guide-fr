@@ -1,0 +1,124 @@
+site_name: Last Asylum : Plague — Guide FR
+site_description: Guide communautaire francophone non officiel de Last Asylum: Plague.
+site_author: Communauté Last Asylum FR
+site_url: https://eelan.github.io/last-asylum-guide-fr/
+repo_url: https://github.com/VOTRE-PSEUDO/last-asylum-guide-fr
+repo_name: eelan/last-asylum-guide-fr
+edit_uri: edit/main/docs/
+
+copyright: >-
+  Guide communautaire non officiel — Last Asylum: Plague.
+  Les marques et visuels du jeu appartiennent à leurs ayants droit.
+
+theme:
+  name: material
+  language: fr
+  favicon: assets/favicon.svg
+  icon:
+    logo: material/castle
+    repo: fontawesome/brands/github
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Passer au thème sombre
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Passer au thème clair
+
+plugins:
+  - search:
+      lang: fr
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      permalink: true
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra_javascript:
+  - assets/javascripts/site.js
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/eelan/last-asylum-guide-fr
+      name: Dépôt GitHub
+  generator: false
+
+nav:
+  - Accueil: index.md
+  - Débuter:
+      - Vue d'ensemble: 00-debuter/index.md
+      - Premiers pas: 00-debuter/premiers-pas.md
+      - Erreurs à éviter: 00-debuter/erreurs-a-eviter.md
+      - Jouer F2P: 00-debuter/f2p.md
+  - Progression:
+      - Vue d'ensemble: 01-progression/index.md
+      - Bâtiments: 01-progression/batiments.md
+      - Diamants: 01-progression/diamants.md
+      - Construction: 01-progression/construction.md
+      - Étoiles: 01-progression/etoiles.md
+      - Titre de Roi: 01-progression/titre-roi.md
+  - Héros:
+      - Vue d'ensemble: 02-heros/index.md
+      - Comprendre les héros: 02-heros/comprendre-les-heros.md
+      - Construire une équipe: 02-heros/compositions.md
+      - Hyper Squad: 02-heros/hyper-squad.md
+  - Équipement:
+      - Vue d'ensemble: 03-equipement/index.md
+      - Équipement: 03-equipement/equipement.md
+      - Équipement UR: 03-equipement/equipement-ur.md
+      - Corbeaux & épigraphes: 03-equipement/corbeaux-epigraphes.md
+  - Alliance:
+      - Vue d'ensemble: 04-alliance/index.md
+      - Duel d'Alliance: 04-alliance/duel-alliance.md
+      - Elixir Scramble: 04-alliance/elixir-scramble.md
+  - Événements:
+      - Vue d'ensemble: 05-evenements/index.md
+      - Fantasy Realm: 05-evenements/fantasy-realm.md
+      - Cheese Trap: 05-evenements/cheese-trap.md
+      - Canyon Conquest: 05-evenements/canyon-conquest.md
+      - Thief Hunt: 05-evenements/thief-hunt.md
+  - Modes de jeu:
+      - Vue d'ensemble: 06-modes-de-jeu/index.md
+      - Falcon Tower: 06-modes-de-jeu/falcon-tower.md
+      - Watchtower: 06-modes-de-jeu/watchtower.md
+  - Référence:
+      - Glossaire: reference/glossaire.md
+      - Sources: reference/sources.md
+      - Contribuer: reference/contribuer.md
+      - Changelog: reference/changelog.md
