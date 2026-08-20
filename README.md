@@ -9,7 +9,7 @@ Le contenu est rédigé en Markdown et le site est généré avec **MkDocs Mater
 ```bash
 python -m venv .venv
 source .venv/bin/activate   # Linux / macOS
-# .venv\Scripts\activate    # Windows
+.venv\Scripts\activate    # Windows
 
 pip install -r requirements.txt
 mkdocs serve
