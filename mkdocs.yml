@@ -1,10 +1,10 @@
-site_name: Last Asylum : Plague — Guide FR
-site_description: Guide communautaire francophone non officiel de Last Asylum: Plague.
-site_author: Communauté Last Asylum FR
-site_url: https://eelan.github.io/last-asylum-guide-fr/
-repo_url: https://github.com/VOTRE-PSEUDO/last-asylum-guide-fr
-repo_name: eelan/last-asylum-guide-fr
-edit_uri: edit/main/docs/
+site_name: "Last Asylum : Plague — Guide FR"
+site_description: "Guide communautaire francophone non officiel de Last Asylum: Plague."
+site_author: "Communauté Last Asylum FR"
+site_url: "https://eelan.github.io/last-asylum-guide-fr/"
+repo_url: "https://github.com/eelan/last-asylum-guide-fr"
+repo_name: "eelan/last-asylum-guide-fr"
+edit_uri: "edit/main/docs/"
 
 copyright: >-
   Guide communautaire non officiel — Last Asylum: Plague.
